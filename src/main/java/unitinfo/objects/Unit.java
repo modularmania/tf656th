@@ -14,7 +14,6 @@ import jakarta.persistence.FetchType;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
-
 @Entity
 @Table(name = "unit")
 public class Unit extends AbstractSyncedDomainObject {
